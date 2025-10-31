@@ -8,16 +8,7 @@ pip install numpy pandas matplotlib scikit-learn ucimlrepo
 ## Usage
 python rf_vs_tree_spambase.py
 
-### Steps Performed
-1. Fetch and summarize the UCI Spambase dataset (ID=94)  
-2. Split into 70/30 train-test sets (stratified)  
-3. Train Decision Tree with grid search (5-fold CV)  
-4. Train Random Forests with 25 and 50 trees  
-5. Report training time, accuracy, ROC-AUC, and PR-AUC  
-6. Plot class balance, accuracy/time comparisons, ROC-PR curves, and per-tree accuracy  
-
 ## Example Output
-=== Deliverable 3: Accuracy & Training time summary ===  
               Model  Train Time (s)  Accuracy  ROC-AUC  PR-AUC  
   Single Decision Tree         2.113     0.9265   0.9714   0.9578  
   Random Forest (25 trees)     5.432     0.9443   0.9851   0.9722  
